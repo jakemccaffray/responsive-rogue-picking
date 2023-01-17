@@ -57,7 +57,8 @@ header {
 header h1 {
 	width: 100%;
 	margin: 0;
-	padding: 38px 0;
+	padding: 38px 0 20px 0;
+	border-bottom: 3px #5C985C solid;
 }
 
 header h1 span {
@@ -65,7 +66,7 @@ header h1 span {
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 30px 0;
 }
 
 header nav ul {
@@ -78,7 +79,8 @@ header nav ul li {
 	font-size: .875rem;
 	font-weight: 700;
 	text-transform: uppercase;
-	padding: 0 10px;
+	padding: 10px 10px;
+	list-style: none;
 }
 
 header nav ul li a {
@@ -122,17 +124,19 @@ header nav ul li a {
 }
 
 .section-one {
-	width: 29%;
+/*	width: 29%; */
 }
 
 .section-two {
-	width: 42%;
+/*	width: 42%; 
 	border-left: 5px solid #EEE;
-	border-right: 5px solid #EEE;
+	border-right: 5px solid #EEE; */
+	border-top: 5px solid #EEE;
+	border-bottom: 5px solid #EEE;
 }
 
 .section-three {
-	width: 29%;
+/*	width: 29%; */
 }
 
 .bottom-section h3 {
